@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website HTML CSS| CodingNepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navigation menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">ABHISHEK GUPTA</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="AbhishekGuptaresum.pdf" download>Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://github.com/GuptaJi2002"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/dayaraj"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one" style="display: inline-block; animation: flow 3s infinite; font-size: 50px;">Hello,</div>
+          <div class="text-two" style="display: inline-block; animation: flow 3s infinite; font-size: 36px 0.5s;">I'm Abhishek Gupta</div>
+          <div class="text-three" style="display: inline-block; animation: flow 3s infinite 1s;">Full Stack Developer</div>
+          <div class="text-three" style="display: inline-block; animation: flow 3s infinite 1s;">AI Developer</div>
+          <div class="text-three" style="display: inline-block; animation: flow 3s infinite 1s;">Content Developer</div>
+      
+        </div>
+        
+        <style>
+        @keyframes flow {
+          0% { transform: translateX(-10px); opacity: 0; }
+          50% { transform: translateX(10px); opacity: 1; }
+          100% { transform: translateX(-10px); opacity: 0; }
+        }
+        </style>
+        
+        
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="ab4.png" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">About Me</div>
+            <p>
+                As a Frontend Developer, my expertise lies in Content Creation, Frontend Development, Responsive Design, Figma, and Web Design.
+                I am proficient in a wide range of technologies and frameworks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="boxes">
+            <div class="box" style="--i: 1"><div class="topic">HTML/CSS</div></div>
+            <div class="box" style="--i: 2"><div class="topic">PHP</div></div>
+            <div class="box" style="--i: 3"><div class="topic">Laravel</div></div>
+            <div class="box" style="--i: 4"><div class="topic">Tailwind</div></div>
+            <div class="box" style="--i: 5"><div class="topic">JavaScript</div></div>
+            <div class="box" style="--i: 6"><div class="topic">MongoDB</div></div>
+            <div class="box" style="--i: 7"><div class="topic">React.js</div></div>
+            <div class="box" style="--i: 8"><div class="topic">Express</div></div>
+            <div class="box" style="--i: 9"><div class="topic">.NET</div></div>
+            <div class="box" style="--i: 10"><div class="topic">C#</div></div>
+            <div class="box" style="--i: 11"><div class="topic">jQuery</div></div>
+            <div class="box" style="--i: 12"><div class="topic">MVC</div></div>
+            <div class="box" style="--i: 13"><div class="topic">AJAX</div></div>
+            <div class="box" style="--i: 14"><div class="topic">Node.js</div></div>
+            <div class="box" style="--i: 15"><div class="topic">Github</div></div>
+            <div class="box" style="--i: 16"><div class="topic">Postman APIs</div></div>
+            <div class="box" style="--i: 17"><div class="topic">Hindi-AI Data Trainer</div></div>
+            <div class="box" style="--i: 18"><div class="topic">English-AI Data Trainer</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">CONTENT CREATION</div>
+            <p>
+                As an AI content creator, I generate various content types (articles, social media posts, etc.) based on user requirements.
+                Using natural language processing, I ensure coherence, accuracy, and SEO optimization.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa-brands fa-edge"></i>
+            </div>
+            <div class="topic">WEBSITE DEVELOPER</div>
+            <p>
+                As an AI website developer, I generate various website types (E-commerce, Blog, educational, portfolio, Foodies) based on user requirements.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa-solid fa-keyboard"></i>
+            </div>
+            <div class="topic">Prompt Engineering</div>
+            <p>
+                As a prompt engineer, I demonstrate expertise in prompt engineering through innovative solutions and impactful outcomes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Projects Section Start -->
+    <section class="projects" id="projects">
+      <div class="content">
+        <div class="title"><span>My Projects</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="topic">Role Based Access Control Bank Management System</div>
+            <p>
+              Built an RBAC system in a Loan Management app using React.js, enabling secure access for Admin and Customers.
+              Designed dynamic role management and intuitive UI for seamless login and role selection, enhancing data protection and efficiency.
+            </p>
+            <a href="https://role-based-access-control-reactjs-mf1c.vercel.app/" class="project-link">View Project</a>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-blog"></i>
+            </div>
+            <div class="topic">Flipcart Clone</div>
+            <p>
+              Created a Flipkart-style e-commerce app using React.js, Node.js, and MongoDB with user auth, cart, and checkout features.
+              Designed a responsive UI with Tailwind CSS and built an admin panel for managing products and orders.
+            </p>
+            <a href="https://github.com/GuptaJi2002" class="project-link">View Project</a>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="topic">CRM Dashboard</div>
+            <p>
+              Built a feature-rich CRM system using Laravel 12 with customer tracking, task, project, and leave management.
+              Designed with a mobile-first approach, ensuring seamless, intuitive user experience across all devices.
+            </p>
+            <a href="https://github.com/GuptaJi2002" class="project-link">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact</span></div>
+        <div class="text">
+          <p>Email: abhishekgupta15237@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">ABHI</a> | © 2024 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
